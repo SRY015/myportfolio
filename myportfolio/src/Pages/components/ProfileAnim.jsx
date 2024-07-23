@@ -37,7 +37,7 @@ function ProfileAnim() {
       <img
         src={photos[photoNo]}
         alt="Loading..."
-        className="h-[350px] w-[340px] rounded-full scale-95 p-2 bg-gradient-to-r from-purple-500 to-red-500 shadow-2xl shadow-gray-700"
+        className="h-[350px] w-[340px] rounded-full scale-95 p-2 bg-gradient-to-r from-purple-500 to-red-500 shadow-2xl shadow-gray-700 mr-auto ml-auto"
       />
       <FcNext
         className="ml-5 text-4xl cursor-pointer"

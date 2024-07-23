@@ -2,8 +2,24 @@ import React from "react";
 import { GiTennisRacket } from "react-icons/gi";
 import { RiRidingFill } from "react-icons/ri";
 import { MdQueueMusic } from "react-icons/md";
+import { FaCirclePlay } from "react-icons/fa6";
 
 function About() {
+  const text =
+    "Hi Everyone, I am Sandip Kumar Das from Jhargram, West Bengal, India. I am working as a full stack web developer at Pravaah Consulting. I started my coding adventure during my BCA days (2018–2021). Think of it as my coding origin story. Then, during my MCA stint (2021–2023), I turbocharged my skills.Before landing my current gig, I was an intern right here(Pravaah Consulting). Imagine it as my magical apprenticeship. I learned spells and brewed potions. It was like Hogwarts for developers. Now, as a full-time wizard—I mean, developer—I’ve spent half a year crafting cool stuff. Databases? Tamed. Animations? Choreographed. Bugs? Squashed like tiny digital bugs.";
+
+  const textToSpeech = () => {
+    const speechSynth = window.speechSynthesis;
+    if (!speechSynth.speaking) {
+      const newUtter = new SpeechSynthesisUtterance(text);
+      speechSynth.speak(newUtter);
+      //playBtn.textContent = "Paying";
+    }
+    // setTimeout(() => {
+    //   playBtn.textContent = "Listen it";
+    // }, 15000);
+  };
+
   return (
     <div className="bg-black min-h-screen pt-20">
       <p className="text-4xl text-white text-center font-bold mt-20">
@@ -42,6 +58,17 @@ function About() {
         My mission is to build bridges between users and tech by creating
         digital masterpieces—like websites that feel like cozy cafes or apps
         that dance when you click.
+      </p>
+
+      <p className="text-center mt-5">
+        <button
+          onClick={textToSpeech}
+          id="playBtn"
+          className="text-white mr-auto ml-auto bg-red-600 p-2 rounded-md"
+        >
+          <FaCirclePlay className="inline-block mr-2 mb-1" />
+          Play
+        </button>
       </p>
 
       <p className="text-center text-3xl text-white mt-10">

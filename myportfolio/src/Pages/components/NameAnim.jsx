@@ -43,7 +43,7 @@ const AnimatedText = ({ textToAnimate, animationSpeed }) => {
 
   return (
     <div>
-      <p className="text-white text-5xl">
+      <p className="text-white text-2xl md:text-5xl text-center md:text-left">
         I Am <span className="text-white">{animatedText}</span>|
       </p>
     </div>
