@@ -3,6 +3,7 @@ import { GiTennisRacket } from "react-icons/gi";
 import { RiRidingFill } from "react-icons/ri";
 import { MdQueueMusic } from "react-icons/md";
 import { FaCirclePlay } from "react-icons/fa6";
+import TechSkills from "./components/TechSkills";
 
 function About() {
   const text =
@@ -46,7 +47,7 @@ function About() {
         it as my coding origin story. Then, during my MCA stint (2021–2023), I
         turbocharged my skills.
       </p>
-      <p className="text-center text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
+      <p className="text-center text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-1">
         Before landing my current gig, I was an intern right here(Pravaah
         Consulting). Imagine it as my magical apprenticeship. I learned spells
         and brewed potions. It was like Hogwarts for developers.
@@ -95,6 +96,8 @@ function About() {
         alt="loading..."
         className="mt-5 h-[400px] mr-auto ml-auto"
       />
+      <hr className="mt-5 border-b-1 border-white w-11/12 ml-auto mr-auto pb-5" />
+      <TechSkills />
     </div>
   );
 }
