@@ -22,9 +22,9 @@ function Navbar() {
             className="lg:hidden md:hidden text-white inline-block ml-auto"
           >
             {toggle ? (
-              <FaTimes className="text-yellow-500" />
+              <FaTimes className="text-yellow-500 text-2xl mr-4" />
             ) : (
-              <FaBars className="text-yellow-500" />
+              <FaBars className="text-yellow-500 text-2xl mr-4" />
             )}
           </button>
         </div>

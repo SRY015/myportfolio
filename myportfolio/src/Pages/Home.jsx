@@ -1,13 +1,7 @@
 import React from "react";
 import AnimatedText from "./components/NameAnim";
 import ProfileAnim from "./components/ProfileAnim";
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-  FaWhatsappSquare,
-  FaGithubSquare,
-} from "react-icons/fa";
+import SocialContact from "./components/SocialContact";
 
 function Home() {
   return (
@@ -42,23 +36,7 @@ function Home() {
           <p className="text-red-700 text-center md:text-left font-semibold">
             FIND ME ON
           </p>
-          <div className="mt-5 flex space-x-3 justify-center md:justify-start">
-            <a href="">
-              <FaFacebookSquare className="text-[50px] text-blue-600 hover:scale-125 duration-300" />
-            </a>
-            <a href="">
-              <FaWhatsappSquare className="text-[50px] text-green-600 hover:scale-125 duration-300" />
-            </a>
-            <a href="">
-              <FaInstagramSquare className="text-[50px] text-[#D64264] hover:scale-125 duration-300" />
-            </a>
-            <a href="">
-              <FaLinkedin className="text-[50px] text-blue-600 hover:scale-125 duration-300" />
-            </a>
-            <a href="">
-              <FaGithubSquare className="text-[50px] text-gray-600 hover:scale-125 duration-300" />
-            </a>
-          </div>
+          <SocialContact />
         </div>
         <div className="col-span-1 hidden md:block">
           <ProfileAnim />

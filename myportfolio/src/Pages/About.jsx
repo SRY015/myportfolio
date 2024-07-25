@@ -4,6 +4,7 @@ import { RiRidingFill } from "react-icons/ri";
 import { MdQueueMusic } from "react-icons/md";
 import { FaCirclePlay } from "react-icons/fa6";
 import TechSkills from "./components/TechSkills";
+import Education from "./components/Education";
 
 function About() {
   const text =
@@ -25,6 +26,11 @@ function About() {
 
   return (
     <div className="bg-black min-h-screen md:pt-20 pb-5 md:pb-0">
+      <img
+        src="https://keoghconsulting.com.au/app/uploads/2019/03/Lightbulb-Moment-3.gif"
+        alt=""
+        className="md:hidden w-[95%] h-[200px]"
+      />
       <p className="text-2xl md:text-4xl text-white text-center font-bold pt-10 md:mt-12">
         Know Who <span className="text-red-600 font-bold">I'M</span>
       </p>
@@ -42,22 +48,22 @@ function About() {
           Pravaah Consulting.
         </span>
       </p>
-      <p className="text-center text-[15px] md:text-[20px] text-white mt-4 px-2 lg:px-0">
+      <p className="md:text-center text-justify font-Roboto text-[15px] md:text-[20px] text-white mt-4 px-3 lg:px-0">
         I started my coding adventure during my BCA days (2018–2021). Think of
-        it as my coding origin story. Then, during my MCA stint (2021–2023), I
+        it as my coding origin story. Then, during my MCA (2021–2023), I
         turbocharged my skills.
       </p>
-      <p className="text-center text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-1">
-        Before landing my current gig, I was an intern right here(Pravaah
+      <p className=" md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-3 lg:px-0">
+        Before landing my current gig, I was an intern right here (Pravaah
         Consulting). Imagine it as my magical apprenticeship. I learned spells
         and brewed potions. It was like Hogwarts for developers.
       </p>
-      <p className="text-center text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
+      <p className="md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
         Now, as a full-time wizard—I mean, developer—I’ve spent half a year
         crafting cool stuff. Databases? Tamed. Animations? Choreographed. Bugs?
         Squashed like tiny digital bugs.
       </p>
-      <p className="text-center text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
+      <p className="md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
         My mission is to build bridges between users and tech by creating
         digital masterpieces—like websites that feel like cozy cafes or apps
         that dance when you click.
@@ -97,6 +103,8 @@ function About() {
         className="mt-5 h-[400px] mr-auto ml-auto"
       />
       <hr className="mt-5 border-b-1 border-white w-11/12 ml-auto mr-auto pb-5" />
+      <Education />
+      <hr className="mt-10 border-b-1 border-white w-11/12 ml-auto mr-auto pb-5" />
       <TechSkills />
     </div>
   );
