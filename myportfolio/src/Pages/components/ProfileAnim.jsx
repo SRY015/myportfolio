@@ -23,7 +23,7 @@ function ProfileAnim() {
     };
   }, [photoNo]);
   return (
-    <div className="flex items-center -mt-8">
+    <div className="flex items-center -mt-8 justify-center">
       <FcPrevious
         className="mr-5 text-4xl cursor-pointer"
         onClick={() => {

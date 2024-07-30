@@ -31,68 +31,60 @@ function About() {
         alt=""
         className="md:hidden w-[95%] h-[200px]"
       />
-      <p className="text-2xl md:text-4xl text-white text-center font-bold pt-10 md:mt-12">
+      <p className="text-2xl md:text-4xl text-white text-center font-oswald font-bold pt-10 md:mt-12">
         Know Who <span className="text-red-600 font-bold">I'M</span>
       </p>
-      <p className="text-center text-[20px] md:text-2xl text-white mt-10 px-2 lg:px-0">
+      <p className="text-center text-[20px] font-poppins md:text-2xl text-white mt-10 px-2 lg:px-0">
         Hi Everyone, I am{" "}
-        <span className="text-purple-600 font-semibold">Sandip Kumar Das</span>{" "}
+        <span className="text-purple-600 font-lobster">Sandip Kumar Das</span>{" "}
         from{" "}
-        <span className="text-purple-600 font-semibold">
+        <span className="text-purple-600 font-lobster">
           Jhargram, West Bengal, India.
         </span>
       </p>
-      <p className="text-center text-[20px] md:text-2xl text-white px-2 lg:px-0">
+      <p className="text-center font-poppins text-[20px] md:text-2xl text-white px-2 lg:px-0">
         I am working as a full stack web developer at{" "}
-        <span className="text-purple-600 font-semibold">
+        <span className="text-purple-600 font-lobster">
           Pravaah Consulting.
         </span>
       </p>
-      <p className="md:text-center text-justify font-Roboto text-[15px] md:text-[20px] text-white mt-4 px-3 lg:px-0">
+      <p className="md:text-center  text-justify font-poppins text-[15px] md:text-[18px] text-white mt-4 w-11/12 mr-auto ml-auto tracking-wide">
         I started my coding adventure during my BCA days (2018–2021). Think of
         it as my coding origin story. Then, during my MCA (2021–2023), I
-        turbocharged my skills.
+        turbocharged my skills. Before landing my current gig, I was an intern
+        right here (Pravaah Consulting). Imagine it as my magical
+        apprenticeship. I learned spells and brewed potions. It was like
+        Hogwarts for developers.Now, as a full-time wizard—I mean,
+        developer—I’ve spent half a year crafting cool stuff. Databases? Tamed.
+        Animations? Choreographed. Bugs? Squashed like tiny digital bugs.My
+        mission is to build bridges between users and tech by creating digital
+        masterpieces—like websites that feel like cozy cafes or apps that dance
+        when you click.
       </p>
-      <p className=" md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-3 lg:px-0">
-        Before landing my current gig, I was an intern right here (Pravaah
-        Consulting). Imagine it as my magical apprenticeship. I learned spells
-        and brewed potions. It was like Hogwarts for developers.
-      </p>
-      <p className="md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
-        Now, as a full-time wizard—I mean, developer—I’ve spent half a year
-        crafting cool stuff. Databases? Tamed. Animations? Choreographed. Bugs?
-        Squashed like tiny digital bugs.
-      </p>
-      <p className="md:text-center text-justify text-[15px] md:text-[20px] text-white mt-2 px-2 lg:px-0">
-        My mission is to build bridges between users and tech by creating
-        digital masterpieces—like websites that feel like cozy cafes or apps
-        that dance when you click.
-      </p>
-
       <p className="text-center mt-5">
         <button
           onClick={textToSpeech}
           id="playBtn"
-          className="text-white mr-auto ml-auto bg-red-600 p-2 rounded-md"
+          className="text-white mr-auto ml-auto bg-red-600 p-2 rounded-md font-lobster"
         >
           <FaCirclePlay className="inline-block mr-2 mb-1" />
           Play
         </button>
       </p>
 
-      <p className="text-center text-2xl md:text-3xl text-white mt-10">
+      <p className="text-center text-2xl md:text-3xl text-white mt-10 font-oswald w-11/12 mr-auto ml-auto">
         Apart from coding, some other activities that I love to do!
       </p>
       <ul className="text-white mr-auto ml-auto mt-5 w-48 text-center">
-        <li>
+        <li className="font-poppins">
           Playing Batminton{" "}
           <GiTennisRacket className="text-yellow-700 inline-block text-2xl ml-2" />
         </li>
-        <li>
+        <li className="font-poppins">
           Bike Riding{" "}
           <RiRidingFill className="text-blue-700 inline-block text-2xl ml-2" />
         </li>
-        <li>
+        <li className="font-poppins">
           Listining to Music{" "}
           <MdQueueMusic className="text-pink-700 inline-block text-2xl ml-2" />
         </li>

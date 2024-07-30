@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      lobster: ["Lobster", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      oswald: ["Oswald", "sans-serif"],
+    },
   },
   screens: {
     phone: "350px",

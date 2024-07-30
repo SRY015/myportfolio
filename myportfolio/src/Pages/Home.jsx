@@ -15,7 +15,7 @@ function Home() {
             textToAnimate="Sandip Kumar Das."
             animationSpeed={200}
           />
-          <pre className="text-white font-Roboto text-[17px] tracking-wide mt-5 mb-10 hidden md:block">
+          <pre className="text-white font-poppins text-[17px] tracking-wide mt-5 mb-10 hidden md:block">
             As a passionate web developer at Pravaah Consulting,
             <br />
             I’ve spent the last six months weaving digital magic with React.js,{" "}
