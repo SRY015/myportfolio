@@ -103,7 +103,7 @@ function Education() {
             <p className="text-[20px] font-semibold">
               BELDA COLLEGE (2018-2021).
             </p>
-            <p className="text-[10px] font-semibold">Vidyasagar University.</p>
+            <p className="text-[10px] font-semibold">Vidyasagar University</p>
             <p className="text-[15px] font-semibold">
               BCA(Bachelor Of Computer Applications).
             </p>
